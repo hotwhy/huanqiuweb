@@ -1,0 +1,64 @@
+
+.banner1 {
+    margin: 1.25rem  0  1.3rem;
+}
+.banner1 img {
+    width: 100%;
+    height:5.24rem;
+    margin: 0 auto;
+}
+
+
+
+
+.meetingserver {
+    padding-bottom:1.5rem;
+}
+.meetingserver h3 {
+    color: #d80c18;
+    font-size: .3rem;
+    padding-bottom: 1.8rem;
+}
+
+.meetingserver > div {
+    float: left;
+    width: 33.33333%;
+    /*height: 200px;*/
+}
+.meetingserver > div > div {
+    position: relative;
+    width: 2.73rem;
+    height: 2.2rem;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    padding: 1.3rem .35rem 0 .25rem;
+    /*box-shadow: 1px 1px 10px #dadada;*/
+}
+.meetingserver > div > div > i {
+    width: 1.6rem;
+    height: 1.6rem;
+    background:no-repeat;
+    background-size: 1.6rem 1.6rem;
+    position: absolute;
+    top:-.8rem;
+    left: 50%;
+    margin-left: -.8rem;
+}
+.meetingserver > div:nth-child(2) > div > i{
+    background-image: url('../img/secondimg/icon-datameeting-1.png');
+}
+.meetingserver > div:nth-child(3) > div > i{
+    background-image: url('../img/secondimg/icon-datameeting-2.png');
+}
+.meetingserver > div:nth-child(4) > div > i{
+    background-image: url('../img/secondimg/icon-datameeting-3.png');
+}
+.meetingserver > div > div > h4 {
+    font-size: .2rem;
+    color: #d80c18;
+    padding-bottom: .15rem;
+}
+.meetingserver > div > div > div {
+    font-size: .16rem;
+    line-height:.3rem;
+}

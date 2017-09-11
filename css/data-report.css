@@ -1,0 +1,42 @@
+.minbody{
+    padding-top:1.7rem;
+    background: #fbfbfb;
+    padding-bottom: 0.75rem;
+}
+.minbodyHeader{
+    text-align: left;
+    font-size:0.16rem;
+    color: #595757;
+}
+.minbodyHeader a{
+    color: #595757;
+}
+.minContent{
+    width:11.3rem;
+    margin:0 auto;
+    border-bottom: 1px solid #7d7d7d;
+}
+.minContent .header{
+    font-size:0.3rem;
+    color: #595757;
+    padding:0.6rem 0 ;
+    text-align: center;
+}
+#canvas{
+    display: block;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+.download{
+    width:2rem;
+    height:0.46rem;
+    line-height:0.46rem;
+    font-size:0.2rem;
+    border-radius: 0.23rem;
+    margin:0 auto;
+    display: block;
+    background: #d80c18;
+    text-align: center;
+    color: #fff;
+    margin-top:0.75rem;
+}

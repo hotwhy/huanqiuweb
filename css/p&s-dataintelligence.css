@@ -1,0 +1,100 @@
+
+.banner1 {
+    width: 100%;
+    height: 7.8rem;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.banner1 h3 {
+    font-size: .3rem;
+    color: #d80c18;
+    padding: 1.72rem 0 .5rem;
+}
+.banner1 .subject {
+    width: 6.1rem;
+    margin: 0 auto;
+    font-size: .16rem;
+    line-height:.3rem;
+    color: #666;
+}
+.banner1-img img {
+    width:7.92rem;
+    height: 4.95rem;
+    margin-top: 1rem;
+}
+
+
+.banner2 {
+    padding-bottom: 3.35rem;
+}
+.banner2 > h3 {
+    padding: 2.75rem 0 .55rem;
+    font-size: .3rem;
+    color: #d80c18;
+}
+.banner2 .subject {
+    font-size: .16rem;
+    color: #666;
+}
+
+.banner2-content {
+    position: relative;
+}
+.banner2-content img {
+    float: left;
+    width: 7rem;
+    height: 5.8rem;
+    margin-top: 2.3rem;
+}
+.banner2-content >div {
+    text-align: left;
+    position: absolute;
+}
+.banner2-content >div > h3 {
+    padding-bottom: .2rem;
+    font-size: .2rem;
+    color: #d80c18;
+}
+.banner2-content > div > div {
+    color: #666;
+    font-size: .16rem;
+    line-height:.3rem;
+}
+
+.banner2-content .subject1 {
+    left: 4.23rem;
+    top: 1.82rem;
+}
+.banner2-content .subject1 h3 {
+    float: left;
+}
+.banner2-content .subject1 > div {
+    padding-top: .03rem;
+    float: left;
+    width: 5.6rem;
+    margin-left: .5rem;
+}
+.subject2 {
+    left: 7.25rem;
+    top: 3.5rem;
+}
+.subject2 > div {
+    width: 4.7rem;
+}
+
+.subject3 {
+    left: 7.25rem;
+    top: 6.45rem;
+}
+.subject3 > div {
+    width: 4.7rem;
+}
+
+.subject4 {
+    left: 3.6rem;
+    top:8.4rem;
+}
+.subject4 > div {
+    width: 5rem;
+}

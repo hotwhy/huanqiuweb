@@ -1,0 +1,485 @@
+/*样式重置开始=================================================================================================*/
+html {
+    font-family: "Microsoft Yahei", arial, helvetica, sans-serif;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, input, button, textarea, p, th, td {
+    padding: 0;
+    margin: 0;
+    font-family: Microsoft YaHei, sans-serif, Arial
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset, img {
+    border: 0
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    outline: none
+}
+
+li {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+input, button, textarea, select {
+    *font-size: 100%
+}
+
+.clear:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.rel {
+    position: relative
+}
+
+body {
+    font-size: 0.14rem;
+    /*min-width:1200px;*/
+}
+
+/*样式重置结束====================================================================================================*/
+
+/*外层宽度*/
+.layout {
+    width: 19.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*定义的内框宽，约束*/
+.content {
+    max-width: 12rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*回到顶部小icon*/
+.backTop {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 3;
+    width: 0.52rem;
+    height: 0.52rem;
+    background: #f2102c url("../img/index/backTop.png") center center no-repeat;
+    background-size: 0.26rem 0.3rem;
+    border: 1px solid #fff;
+    border-radius: 0.05rem;
+    cursor: pointer;
+    display: none;
+}
+
+/*头部的样式开始==============================================================================================*/
+
+.head {
+    width: 100%;
+    height: .9rem;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    z-index: 2;
+}
+
+.logo img {
+    width: 1.68rem;
+    height: .5rem;
+    margin: 0.22rem 0 0 0.14rem;
+}
+
+.headerNav {
+    float: left;
+    margin-left: 1.3rem;
+}
+
+.headerNav > li {
+    float: left;
+    position: relative;
+}
+
+.headerNav > li > a {
+    font-size: .18rem;
+    height: .90rem;
+    line-height: .9rem;
+    padding: 0 .35rem;
+    color: #fff;
+}
+
+.headerNav > li:hover .product-theme > a {
+    color: #ff0012;
+}
+
+/*下拉框*/
+.more {
+    width: .15rem;
+    height: .15rem;
+    position: absolute;
+    top: 0;
+    right: 0rem;
+    display: block;
+    margin-right: .1rem;
+    background: url('../img/index/icon-more-1.png') center no-repeat;
+    background-size: .15rem .08rem;
+    margin-top: .38rem;
+}
+.moreImg{
+    background-image: url('../img/index/icon-more-2.png') !important;
+}
+
+/*平台试用*/
+.head .callme {
+    font-size: .18rem;
+    height: .34rem;
+    width: 1.04rem;
+    float: right;
+    text-align: center;
+    line-height:.34rem;
+    background-color: transparent;
+    border-radius: .16rem;
+    -webkit-border-radius: .17rem;
+    color: #fff;
+    margin: 0.29rem 0.15rem 0 0;
+    cursor: pointer;
+    border: 1px solid #fff;
+
+}
+
+.callme:hover {
+    background-color: #d80c18;
+    border: 1px solid #d80c18;
+    color: #fff;
+}
+
+/*下拉框内部样式*/
+.navSon {
+    position: absolute;
+    left: 0.28rem;
+    background-color: rgba(216, 12, 24, .6);
+    border-radius: 0.1rem;
+    padding: .35rem .65rem .35rem .35rem;
+    display: none;
+    text-align: left;
+}
+
+.navSon i {
+    width: .25rem;
+    height: .21rem;
+    display: block;
+    float: left;
+    margin-top: .05rem;
+    margin-right: .38rem;
+    /*margin-bottom: .36rem;*/
+    background: url('../img/index/icon-computer-1.png') no-repeat;
+    background-size: .25rem .21rem;
+}
+
+.navSon li {
+    height: 0.32rem;
+    line-height: 0.32rem;
+    font-size: .16rem;
+    margin-bottom: .3rem;
+}
+
+.navSon li a {
+    color: #bebebe;
+}
+
+.navSon li:hover a {
+    color: #fff;
+}
+
+.navSon li:hover i {
+    background: url('../img/index/icon-computer-2.png') no-repeat;
+    background-size: .25rem .21rem;
+}
+
+.navSon .public-san {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: .13rem solid transparent;
+    border-left: .1rem solid transparent;
+    border-right: .1rem solid transparent;
+    border-bottom-color: rgba(216, 12, 24, .6);
+    left: .5rem;
+    top: -.26rem;
+    margin-left: -.07rem;
+}
+
+.head .product-theme-t1 {
+    width: 3.32rem;
+}
+
+.head .solution-theme-t1 li {
+    float: left;
+}
+
+.headerNav .choosed {
+    color: #ff0012 !important;
+}
+
+/*头部样式结束=====================================================================================================*/
+
+/*--------------------------------------------------------banner图-----------------------------------------------*/
+.banner img {
+    width: 19.2rem;
+    height:5.5rem;
+    background: #000;
+    margin: 0 auto;
+    display: block;
+}
+
+/*--------------------------------------------------------banner图结束-----------------------------------------------*/
+
+/*---------------------------------------------------------------------底部开始-------------------------------*/
+.footer-content {
+    text-align: left;
+    margin-top: .4rem;
+}
+
+.footer-content > ul {
+    float: left;
+}
+
+.footer-footer {
+    margin-top: 0.4rem;
+}
+
+.footerGlobalData {
+    margin-right: 1.6rem;
+}
+
+.Solution {
+    margin-right: 1.5rem;
+}
+
+.ulBox .ul-top {
+    font-size: 0.18rem;
+    color: #d80c18;
+    height: 0.58rem;
+    line-height: 0.58rem;
+}
+
+.footerGlobalData .ul-top {
+    height: 0.54rem;
+    width: 1.81rem;
+}
+
+.footerGlobalData .ul-top img {
+    width: 1.81rem;
+    height: 0.54rem;
+}
+
+.ulBox > li {
+    font-size: 0.14rem;
+    color: #221815;
+    height: 0.32rem;
+    line-height: 0.32rem;
+}
+
+.Solution {
+    margin-top: 0.24rem;
+}
+
+.footerCode {
+    float: right;
+    width: 1.29rem;
+}
+
+.sina {
+    float: left;
+    background: url("../img/index/icon-sina.png") center center no-repeat;
+}
+
+.weChat {
+    float: right;
+    background: url("../img/index/icon-weChat.png") center center no-repeat;
+}
+
+.sina, .weChat {
+    width: 0.55rem;
+    height: 0.55rem;
+    background-size: 0.38rem 0.31rem;
+}
+
+.jusfounCode {
+    float: left;
+    width: 1.29rem;
+    height: 1.28rem;
+    margin-top: 0.4rem;
+    background: url("../img/index/icon-code.jpg") center center no-repeat;
+    background-size: 100%;
+}
+
+.footer-footer {
+    border-top: 0.02rem solid #919191;
+    height: 0.77rem;
+    line-height: 0.77rem;
+    color: #9b9b9b;
+}
+
+.footer-footer a {
+    color: #9b9b9b;
+}
+
+/*---------------------------------------------------底部结束--------------------------------------------------*/
+
+
+/*弹出框开始==============================================================================================*/
+.popups {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 111111111;
+    display: none;
+}
+
+.try {
+    width: 6rem;
+    height: 6.5rem;
+    position: relative;
+    margin: 1rem auto 0;
+    border: .01rem solid red;
+    border-radius: .1rem;
+    background-color: #fff;
+}
+
+.exit {
+    width: .2rem;
+    height: .2rem;
+    background: url('../img/index/icon-exit.png');
+    background-size: .2rem .2rem;
+    float: right;
+    margin: .15rem .15rem 0 0;
+    cursor: pointer;
+}
+
+.try-title {
+    width: 1.5rem;
+    font-size: .32rem;
+    text-align: center;
+    margin: .4rem auto .4rem;
+}
+
+.try input {
+    display: block;
+    width: 4.35rem;
+    height: .38rem;
+    padding-left: .13rem;
+    border-radius: .05rem;
+    border: .01rem solid #ccc;
+    outline-style: none;
+    margin: 0 auto .3rem;
+    font-size: .14rem;
+}
+
+.try input:hover {
+    border: .01rem solid #c62d27;
+}
+
+.try .yzm {
+    margin-left:.75rem;
+    width: 2.6rem;
+    float: left;
+    margin-right: .39rem;
+}
+.imgaa {
+    width:1.34rem;
+    float: left;
+
+
+}
+.imgaa img {
+    width: 1.34rem;
+    height: .38rem;
+    border: .01rem solid #ccc;
+    border-radius: .05rem;
+}
+
+.present {
+    width: 2.6rem;
+    height: .42rem;
+    border-radius: .21rem;
+    background: #c62d27;
+    margin: 1.02rem auto 0;
+    text-align: center;
+    line-height: .42rem;
+    font-size: .18rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sw {
+    color: #c62d27;
+    position: absolute;
+    top: 0;
+    left: .88rem;
+    font-size: .12rem;
+    display: none;
+}
+
+.try div:nth-child(4) {
+    top: 1.67rem;
+}
+
+.try div:nth-child(6) {
+    top: 2.38rem;
+}
+
+.try div:nth-child(8) {
+    top: 3.09rem;
+}
+
+.try div:nth-child(10) {
+    top: 3.8rem;
+}
+
+.try div:nth-child(12) {
+    top: 4.51rem;
+}
+.try div:nth-child(14) {
+    top: 5.22rem;
+}
+
+/*弹出框结束==============================================================================================*/

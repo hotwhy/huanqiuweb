@@ -1,0 +1,221 @@
+
+/*公司简介*/
+
+.public h3{
+    font-size: .3rem;
+    padding-top: .9rem;
+    padding-bottom: .15rem;
+}
+.public h4 {
+    font-size: .14rem;
+    color:#adaeae;
+}
+.intro {
+    width: 10.7rem;
+    margin: .6rem auto .7rem;
+    font-size: .16rem;
+    line-height:.3rem;
+}
+.computer img {
+    width: 5.18rem;
+    height: 3rem;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*我们的服务*/
+.services {
+    width:100%;
+    background-color: #f6f6f6;
+    padding: .2rem 0 1.7rem;
+    margin-top: -.2rem;
+}
+.services .serviceitem {
+    position: relative;
+}
+
+.services .serviceitem > div {
+    text-align: center;
+    width: 33.3333333%;
+    float: left;
+    margin-top: .6rem;
+}
+.services .serviceitem > div > div:nth-child(1) {
+    width: .9rem;
+    height: .9rem;
+    margin: 0 auto .25rem;
+}
+.services .serviceitem > div > div:nth-child(2) {
+    font-size: .22rem;
+    line-height:.3rem;
+    padding-bottom: .2rem;
+}
+.services .serviceitem > div > span {
+    font-size: .16rem;
+    line-height:.3rem;
+}
+
+.services .serviceitem > div:nth-child(1) > div:nth-child(1) {
+    background: url('../img/secondimg/icon-service-1.png');
+    background-size: .9rem .9rem;
+
+}
+.services .serviceitem > div:nth-child(2) > div:nth-child(1) {
+    background: url('../img/secondimg/icon-service-2.png');
+    background-size: .9rem .9rem;
+
+}
+.services .serviceitem > div:nth-child(3) > div:nth-child(1) {
+    background: url('../img/secondimg/icon-service-3.png');
+    background-size: .9rem .9rem;
+}
+.services .serviceitem .line {
+    position: absolute;
+    top: .41rem;
+    width: 0;
+    height: 1.3rem;
+    border-right: 1px solid #d8d8d8;
+}
+.services .serviceitem > div:nth-child(4) {
+    left: 33.333%;
+}
+.services .serviceitem > div:nth-child(5) {
+    left: 66.666%;
+}
+
+
+
+/*合作伙伴*/
+.partner {
+    padding-bottom: .8rem;
+}
+.partneritem {
+    margin-top: .5rem;
+}
+.partneritem > div {
+    width: 25%;
+    height: 1.5rem;
+    float: left;
+    box-sizing: border-box;
+    border: .01rem solid #e0e0e0;
+    border-right: none;
+    border-bottom: none;
+
+}
+.partneritem > div:nth-child(1) {
+    background: url("../img/secondimg/partner-1.png") no-repeat center center;
+    background-size: 1rem .84rem;
+}
+.partneritem > div:nth-child(2) {
+    background: url("../img/secondimg/partner-2.png") no-repeat center center;
+    background-size: 1.16rem .92rem;
+}
+.partneritem > div:nth-child(3) {
+    background: url("../img/secondimg/partner-3.png") no-repeat center center;
+    background-size: 1.28rem .26rem;
+}
+.partneritem > div:nth-child(4) {
+    background: url("../img/secondimg/partner-4.png") no-repeat center center;
+    background-size: .6rem .9rem;
+}
+.partneritem > div:nth-child(5) {
+    background: url("../img/secondimg/partner-5.png") no-repeat center center;
+    background-size: 1.4rem .48rem;
+}
+.partneritem > div:nth-child(6) {
+    background: url("../img/secondimg/partner-6.png") no-repeat center center;
+    background-size: .84rem .88rem;
+}
+.partneritem > div:nth-child(7) {
+    background: url("../img/secondimg/partner-7.png") no-repeat center center;
+    background-size: 1.36rem .36rem;
+}
+.partneritem > div:nth-child(8) {
+    background: url("../img/secondimg/partner-8.png") no-repeat center center;
+    background-size: 1.52rem .42rem;
+}
+.partneritem > div:nth-child(9) {
+    background: url("../img/secondimg/partner-9.png") no-repeat center center;
+    background-size: 1.34rem .4rem;
+}
+.partneritem > div:nth-child(10) {
+    background: url("../img/secondimg/partner-10.png") no-repeat center center;
+    background-size: 1.34rem .42rem;
+}
+
+.partneritem > div:nth-child(4n) {
+    border-right: .01rem solid #e0e0e0;
+}
+.partneritem > div:nth-child(n+9) {
+    border-bottom:.01rem solid #e0e0e0;
+}
+
+/*底部开始*/
+.footer {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.footer .footers {
+    text-align: left;
+}
+.footer h3 {
+    font-size: .18rem;
+    color: #d80c18;
+    font-weight: 700;
+    padding: .6rem 0 .4rem;
+}
+.footer p {
+    font-size: .14rem;
+    line-height: .32rem;
+}
+.footer .road {
+    font-size: .13rem;
+    color: #d80c18;
+}
+.footer .ewm {
+    width: 1.29rem;
+    height: 1.28rem;
+    background: url("../img/secondimg/icon-ewm.png") no-repeat;
+    background-size: 1.29rem 1.28rem;
+    margin-top: .4rem;
+}
+
+.footer-footer {
+    margin-top: 1rem;
+    border-top: 0.02rem solid #919191;
+    height: 0.77rem;
+    line-height: 0.77rem;
+    color: #9b9b9b;
+}
+
+.footer-footer a {
+    color: #9b9b9b;
+}
+
+.footer .map {
+    width: 6.4rem;
+    height: 3.2rem;
+    margin-top: 1.1rem;
+}
+
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}
+/*去除百度图标的显示*/
+.anchorBL{
+    display:none;
+}

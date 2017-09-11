@@ -1,0 +1,72 @@
+
+/*中间开始*/
+.banner1 {
+    margin-top: 2.3rem;
+    width: 100%;
+    height: 6.55rem;
+    background: url("../img/secondimg/banner-mediaforce1.png") no-repeat;
+    background-size: 100% 6.55rem;
+}
+
+.banner1 .subject {
+    text-align: left;
+    margin-top: 1.1rem;
+    width: 4.67rem;
+    float: right;
+}
+.banner1 .subject h3 {
+    margin-bottom: .27rem;
+    font-size: .3rem;
+    color: #d80c18;
+}
+.banner1 .subject > div {
+    font-size: .16rem;
+    line-height:.3rem;
+}
+.banner2 {
+    margin-top: 2.1rem;
+}
+
+.banner2 .subject {
+    margin-top: 1.2rem;
+    float: left;
+    width:4.8rem;
+    text-align: right;
+}
+.banner2 h3 {
+    margin-bottom: .27rem;
+    font-size: .3rem;
+    color: #d80c18;
+}
+.banner2 .subject > div {
+    font-size: .16rem;
+    line-height:.3rem;
+}
+.banner2 .smallimg img {
+    float: right;
+    width: 6.02rem;
+    height: 3.71rem;
+}
+
+.banner3 {
+    margin: 2.85rem 0 1.2rem;
+    width: 100%;
+    height: 7.2rem;
+    background: url("../img/secondimg/banner-mediaforce3.png") no-repeat;
+    background-size: 100% 7.2rem;
+}
+.banner3 .subject {
+    margin-top: 1.3rem;
+    float: right;
+    width: 3.3rem;
+    text-align: left;
+}
+.banner3 .subject > h3 {
+    margin-bottom: .27rem;
+    font-size:.3rem;
+    color: #d80c18;
+}
+.banner3 .subject > div {
+    font-size: .16rem;
+    line-height:.3rem;
+}

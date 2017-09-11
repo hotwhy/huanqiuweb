@@ -1,0 +1,183 @@
+/*--------------------------------产品示例开始---------------------------------------------------------*/
+.product-simple {
+    width: 19.2rem;
+    height: 10.06rem;
+    background: url("../img/secondimg/banner-redbg.png") no-repeat;
+    background-size: 19.2rem 10.06rem;
+}
+
+.product-simple h3 {
+    padding-top: 1.2rem;
+    font-size: .3rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    color: #ffffff;
+}
+
+.product-simple p {
+    width: 8.2rem;
+    height: 1.2rem;
+    margin: .4rem auto 0;
+    font-size: .16rem;
+    line-height: .26rem;
+    color: #ffffff;
+}
+
+/*--------------------------------产品示例结束---------------------------------------------------------*/
+
+/*轮播图开始=====================================================================================================*/
+
+.slide {
+    width: 19.2rem;
+    height: 5.7rem;
+    margin: 0 auto;
+    /*border:1px solid black;*/
+}
+
+.slide .ulExample {
+    width: 1px;
+    height: 1px;
+    margin: 0 auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(600px);
+
+    /*transform-origin:9.6rem 2.34rem;*/
+    /*-webkit-animation: rotate 10s linear infinite;*/
+
+}
+
+.ulExample li {
+    position: absolute;
+    top: 0;
+    transition: all 0.5s;
+    background: #000;
+}
+
+.ulExample li:nth-child(1) {
+    left: -4.17rem;
+    transform: translateZ(20px) scale(1);
+}
+
+.ulExample li:nth-child(2) {
+    left: -1.17rem;
+    transform: translateZ(10px) scale(0.8);
+}
+
+.ulExample li:nth-child(3) {
+    left: 2.17rem;
+    transform: translateZ(0) scale(0.6);
+}
+
+.ulExample li:nth-child(4) {
+    left: -10.17rem;
+    transform: translateZ(0) scale(0.6);
+}
+
+.ulExample li:nth-child(5) {
+    left: -7.17rem;
+    transform: translateZ(10px) scale(0.8);
+}
+
+.ulExample a {
+    float: left;
+}
+
+.ulExample li img {
+    width: 8.34rem;
+    height: 4.68rem;
+    vertical-align: top;
+    box-shadow: -0.07rem 0 0.05rem -0.05rem #000,
+    0 0 0 transparent,
+    0 0 0 transparent,
+    0.04rem -0.02rem 0.05rem -0.02rem #000;
+}
+
+/*
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:.5rem;
+    height:1rem;
+    position: absolute;
+    top:50%;
+    !*left:0;*!
+    margin-top:-.5rem;
+    background: url(../img/secondimg/bannerBtn.png) no-repeat left;
+    !*background-size: 1rem 1rem;*!
+    z-index: 99;
+    -webkit-animation: arrow 0.5s infinite alternate ease-in-out;
+    -moz-animation: arrow 0.5s infinite alternate ease-in-out;
+}
+.prev {
+    left:0;
+}
+.next{
+    right:0;
+    background: url(../img/secondimg/bannerBtn.png) no-repeat right;
+}
+
+.prevsame,.nextsame {
+    width:.5rem;
+    height:1rem;
+    position: absolute;
+    top:50%;
+    margin-top:-.5rem;
+    background: url(../img/secondimg/bannerBtn.png) no-repeat left;
+    !*background-size: 1rem 1rem;*!
+    z-index: 50;
+}
+.prevsame {
+    left: 0;
+}
+.nextsame {
+    right:0;
+    background: url(../img/secondimg/bannerBtn.png) no-repeat right;
+}
+
+
+@-webkit-keyframes arrow {
+    from {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: scale(1.5);
+        opacity: 0.2;
+    }
+}
+
+@-moz-keyframes arrow {
+    from {
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        -moz-transform: scale(1.5);
+        opacity: 0.2;
+    }
+}*/
+/*轮播图结束==============================================================================================*/
+
+/*申请试用开始================================================================================================*/
+.apply {
+    width: 2rem;
+    height: .54rem;
+    background-color: #fff;
+    color: #ec463b;
+    border-radius: .28rem;
+    margin: 0 auto;
+    line-height: .54rem;
+    font-size: .24rem;
+    box-shadow: 0px 1px 10px red;
+    text-align: center;
+    cursor: pointer;
+}
+
+.apply:hover {
+    background-color: red;
+    color: #fff;
+}
+
+/*申请试用结束=============================================================================================*/

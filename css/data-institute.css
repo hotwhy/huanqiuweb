@@ -1,0 +1,192 @@
+
+.introduce .introduceImg{
+    width:5.68rem;
+    height: 6.82rem;
+    padding: 0.75rem 0;
+    background:url("../img/secondimg/bg-institute01.jpg") center center no-repeat;
+    background-size: 5.68rem 6.82rem;
+}
+.introduce .introduceText{
+    width:5.05rem;
+    padding-top: 1.1rem;
+    text-align: left;
+}
+.introduceText .header{
+    border-bottom: 1px solid #ff0000;
+}
+.introduceText h2{
+    font-size:0.3rem;
+    color: #13171b;
+}
+.introduceText h3{
+    font-size:0.16rem;
+    color: #898989;
+    margin:0.1rem 0 0.2rem 0;
+}
+.introduceText .text{
+    margin-top: 0.3rem;
+}
+.introduceText p{
+    font-size:0.16rem;
+    line-height:0.36rem;
+    text-indent:0.32rem;
+    color: #13171b;
+}
+.tabs{
+    background: #f8f7f7;
+    padding-bottom: 0.8rem;
+    text-align: center;
+}
+.tabs .tabsHeader{
+    background-color: #262626;
+    height:0.61rem;
+    padding-top: 0.29rem;
+}
+.tabsHeader>.content>div{
+    width: 1.48rem;
+    height:0.32rem;
+    line-height:0.32rem;
+    font-size:0.16rem;
+    color: #898989;
+    cursor: pointer;
+}
+.select1{
+    background: #d53a37 !important;
+    border-radius: 0.16rem !important;
+    color: #fff !important;
+}
+.tabsHeader>.content>div:hover{
+    background: #d53a37;
+    border-radius: 0.16rem;
+    color: #fff;
+}
+
+/*ul列表*/
+.ulTab li{
+    width: 3.7rem;
+    float: left;
+
+    background: url("../img/secondimg/bg-institute02.jpg") 0 0.6rem no-repeat;
+    background-size: 3.7rem 2.74rem;
+    text-align: left;
+    margin-left: 0.45rem;
+}
+.ulTab li>.inner{
+    float: left;
+    padding: 3.6rem 0 0 0.24rem;
+}
+
+.ulTab li:nth-child(3n+1){
+    margin-left: 0 !important;
+}
+
+.ulTab .time{
+    color: #898989;
+    font-size:0.12rem;
+}
+.ulTab .liTitle{
+    font-size:0.22rem;
+    height:0.5rem;
+    line-height:0.5rem;
+    color: #d80c18;
+    position: relative;
+}
+.new{
+    position: absolute;
+    top:0.15rem;
+    right:0;
+    width:0.43rem;
+    height:0.2rem;
+    border-radius: 0.1rem;
+    background: #e60012;
+    color: #fff;
+    font-size:0.12rem;
+    line-height:0.2rem;
+    text-align: center;
+}
+.new:after{
+    content: 'NEW';
+}
+.ulTab p{
+    width:3.25rem;
+    height: 0.48rem;
+    line-height:0.24rem;
+    font-size:0.16rem;
+    color: #13171b;
+    margin-top: 0.5rem;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.ulTab .viewMore{
+    float: right;
+    margin: 0.33rem 0.1rem 0 0;
+    width: 1.08rem;
+    height: 0.32rem;
+    line-height:0.32rem;
+    font-size:0.14rem;
+    background: #aaa;
+    color: #fff;
+
+    border-radius: 0.16rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ulTab .viewMore:hover{
+    background: #d80c18;
+}
+/*页码*/
+.page{
+    margin-top: 0.8rem;
+    display: inline-block;
+    color: #221815;
+    font-size:0.14rem;
+}
+.page>div,.page>span,.page>ul,.page>input,.pageNum button,.pageNum li{
+    float: left;
+}
+.page>div,.page>button,.pageNum li>p{
+    cursor: pointer;
+}
+.page .toLeft,.page .toRight{
+    width:0.68rem;
+    border:1px solid #bfbfbf;
+    font-size:  0.14rem;
+    height:0.24rem;
+    line-height: 0.24rem;
+}
+.pageNum{
+    margin: 0.03rem 0.14rem 0;
+}
+.pageNum li{
+    margin:0 0.05rem;
+}
+.pageNum li p{
+    width:0.28rem;
+    height: 0.2rem;
+}
+.red{
+    background: #d80c18;
+    color: #fff !important;
+}
+.page span{
+    margin:0 0.15rem;
+    line-height:0.26rem;
+}
+.page>input{
+    width:0.48rem;
+    height: 0.24rem;
+    border:1px solid #bfbfbf;
+    text-align: center;
+    outline:none;
+}
+.page button{
+    width: 0.48rem;
+    height: 0.26rem;
+    background: #d2d2d2;
+    border: 0;
+    outline: none;
+}
